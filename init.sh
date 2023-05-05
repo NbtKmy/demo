@@ -16,7 +16,7 @@ sed -i -e 's/numpy/#numpy/g' $PROJECT_DIR/requirements.txt
 sed -i -e 's/opencv-python/#opencv-python/g' $PROJECT_DIR/requirements.txt
 
 pip install -r $PROJECT_DIR/requirements.txt
-pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 -f https://download.pytorch.org/whl/lts/1.8/torch_lts.html
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.8.0/index.html
 
 cd $PROJECT_DIR/src/ndl_layout/mmdetection
