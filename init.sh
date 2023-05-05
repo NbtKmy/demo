@@ -42,4 +42,4 @@ pip install pdf2image
 
 # transparent
 pip install python-bidi
-pip install reportlab
+pip install reportlab==3.6.12
